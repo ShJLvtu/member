@@ -2,7 +2,7 @@ body{font-family:'Microsoft Yahei';font-size:14px;color:#666;}
 html,body{height:100%}
 /* 顶部样式 */
 .header_con{background-color:#000000;color:#FFFFFF;height:49px;border-bottom:1px solid #dddddd;}
-.header{width:100%;height:49px;margin:0 auto;}
+.header{width:auto;height:49px;margin:0 auto;}
 .welcome,.login_info,.login_btn,.user_link{line-height:49px;}
 .login_info{display:none;}
 .login_btn a,.user_link a{color:#FFFFFF;}
@@ -19,7 +19,7 @@ html,body{height:100%}
 }
 
 /* 页面底部样式 */
-.footer{width:100%;border-top:2px solid #42ad46;background-color:#000;color:#FFF;margin:30px 0;}
+.footer{width:auto;border-top:2px solid #42ad46;background-color:#000;color:#FFF;margin:30px 0;}
 .foot_link{text-align:center;margin-top:30px;}
 .foot_link a,.foot_link span{color:#FFFFFF;}
 .foot_link a:hover{color:#ff8800}
