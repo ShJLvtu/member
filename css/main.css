@@ -1,5 +1,5 @@
 body{font-family:'Microsoft Yahei';font-size:14px;color:#666;}
-html,body{height:100%}
+html,body{height:100%;width:100%;}
 /* 顶部样式 */
 .header_con{background-color:#000000;color:#FFFFFF;height:49px;border-bottom:1px solid #dddddd;}
 .header{width:auto;height:49px;margin:0;}
