@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><html oncontextmenu="return false" onselectstart="return false"></html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+	<script>
+	function getValues(){
+        n = $("#m").val();
+        x = $("#w").val();
+		if( n != "5593") alert("会员信息不存在");
+		else{
+			if( x == "") alert("密码错误");
+			else window.location.href = "55930.html";
+		}
+	}
+	</script>
+</head>
+<body>
+	<div class="login_form_bg">
+		<div class="login_form_wrap clearfix">
+			<div class="login_form fr">
+				<div class="login_title clearfix"><h1>Log in</h1></div>
+				<div class="form_input">
+					<div>
+						<input type="text" name="m" id="m" class="name_input" value="" placeholder="Name">
+						<input type="password" name="w" id="w" class="pass_input" value="" placeholder="Password">
+						<div class="more_input clearfix"><br />
+							<input type="checkbox"><label>Remember Name</label><a href="#" title="找客服">Forget Pwd</a><br />
+						</div>
+						<input class="input_submit" type="button" value="Log in" onclick="getValues()">
+					</div>
+				</div>
+			</div><div class="reg_slogan"><img src="../img/tb1.png"><br /><br />Aim At Absolute Perfection</div>
+		</div>
+	</div>
+</body>
+</html>
